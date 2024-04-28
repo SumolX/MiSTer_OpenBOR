@@ -11,7 +11,7 @@ Installer:
      
       Install_OpenBOR.sh
 
-Geame Modules:
+Game Modules:
 
       /media/fat/OpenBOR/Paks
 
