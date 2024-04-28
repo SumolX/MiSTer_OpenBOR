@@ -16,7 +16,7 @@ Place installer script within the standard MiSTer Scripts directory and execute 
 ## Game Modules:
 Place your download game modules within the following directory:
 
-      /media/fat/OpenBOR/Paks
+      /media/fat/OpenBOR/Paks/
 
 ## Execute:
 To run OpenBOR follow the instructions provided below:
@@ -43,6 +43,7 @@ General structure for OpenBOR
         OpenBOR
         Paks/
         ScreenShots/
+        Libs/
         Logs/
         Saves/
         
@@ -62,6 +63,7 @@ created by the wonderful folks over at http://www.senileteam.com.
 
 ## Official Site & Source Code
 https://www.chronocrash.com
+
 https://github.com/DCurrent/openbor
 
 ## History
