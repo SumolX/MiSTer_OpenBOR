@@ -63,6 +63,7 @@ to the following platforms are currently supported:
 * Linux
 * Mac OS X
 * Wii
+* Android
 
 ## Source Code v3.0 Build 3743
 https://github.com/DCurrent/openbor/tree/c4188333413ded2563b7df4d6f06c5097ee14e9c
