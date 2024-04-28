@@ -4,14 +4,18 @@
 ROOT_DIR=/media/fat
 SCRIPTS=$ROOT_DIR/Scripts
 INSTALL=$ROOT_DIR/OpenBOR
+ARCHIVE=master.zip
 PACKAGE=MiSTer_OpenBOR-main
+WORKING=/tmp/$PACKAGE
+
+cleanup () {
+  rm -rf /tmp/$ARCHIVE /tmp/$PACKAGE
+}
 
 # Download latest and extract
-rm -rf /tmp/master.zip /tmp/$PACKAGE
-wget -P /tmp https://github.com/SumolX/MiSTer_OpenBOR/archive/master.zip
-cd /tmp
-unzip master.zip
-cd $PACKAGE
+cleanup
+wget -P /tmp https://github.com/SumolX/MiSTer_OpenBOR/archive/$ARCHIVE || exit 1
+unzip /tmp/$ARCHIVE -d /tmp || exit 1
 
 # Prepare directory structure
 mkdir -p $INSTALL/Logs
@@ -23,11 +27,9 @@ mkdir -p $INSTALL/ScreenShots
 rm -rf $INSTALL/Libs
 
 # Install new files
-cp -a Libs $INSTALL/
-cp -a OpenBOR $INSTALL/
-cp -a media/fat/Scripts/OpenBOR.sh $SCRIPTS/
-cp -a media/fat/Scripts/Install_OpenBOR.sh $SCRIPTS/
+cp -a $WORKING/Libs $INSTALL/ && \
+cp -a $WORKING/OpenBOR $INSTALL/ && \
+cp -a $WORKING/media/fat/Scripts/OpenBOR.sh $SCRIPTS/ && \
+cp -a $WORKING/media/fat/Scripts/Install_OpenBOR.sh $SCRIPTS/ && \
+cleanup
 
-# Cleanup
-cd /tmp
-rm -rf master.zip $PACKAGE
