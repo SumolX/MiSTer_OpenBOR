@@ -11,7 +11,7 @@ Installer:
      
       Install_OpenBOR.sh
 
-Modules:
+Geame Modules:
 
       /media/fat/OpenBOR/Paks
 
@@ -30,6 +30,20 @@ Update Controls:
       Setup Player 1...
       Assign Buttons and select OK
       Repeat for other Players/Gamepads
+
+## OpenBOR Directory Structure
+
+    /media/fat/OpenBOR/
+        OpenBOR
+        Paks/
+        ScreenShots/
+        Logs/
+        Saves/
+        
+    /media/fat/Scripts/
+        OpenBOR.sh
+        Install_OpenBOR.sh
+
 
 ## Donation
 If you enjoyed this work or would like to see additional MiSTer related enhancements please feel free to donate.
@@ -67,15 +81,3 @@ to the following platforms are currently supported:
 
 ## Source Code v3.0 Build 3743
 https://github.com/DCurrent/openbor/tree/c4188333413ded2563b7df4d6f06c5097ee14e9c
-
-## OpenBOR Directory Structure
-
-    /media/fat/OpenBOR/
-        OpenBOR
-        Paks/
-        ScreenShots/
-        Logs/
-        Saves/
-        
-    /media/fat/Scripts/
-        OpenBOR.sh
