@@ -27,9 +27,9 @@ mkdir -p $INSTALL/ScreenShots
 rm -rf $INSTALL/Libs
 
 # Install new files
-cp -a $WORKING/Libs $INSTALL/ && \
-cp -a $WORKING/OpenBOR $INSTALL/ && \
-cp -a $WORKING/media/fat/Scripts/OpenBOR.sh $SCRIPTS/ && \
-cp -a $WORKING/media/fat/Scripts/Install_OpenBOR.sh $SCRIPTS/ && \
+cp -av $WORKING/Libs $INSTALL/ && \
+cp -av $WORKING/OpenBOR $INSTALL/ && \
+cp -av $WORKING/media/fat/Scripts/OpenBOR.sh $SCRIPTS/ && \
+cp -av $WORKING/media/fat/Scripts/Install_OpenBOR.sh $SCRIPTS/ && \
 cleanup
 
