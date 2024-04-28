@@ -7,21 +7,26 @@ Support the OpenBOR Team by visiting https://www.chronocrash.com which is the of
 
 This port is a gift to my daugher who is a huge fan of Sailor Moon and there are quite a few Modules available for OpenBOR!
 
-Installer:
-     
-      Install_OpenBOR.sh
+## Installer:
+Place installer script within the standard MiSTer Scripts directory and execute to download and install OpenBOR.
 
-Game Modules:
+      /media/fat/Scripts/
+           Install_OpenBOR.sh
+
+## Game Modules:
+Place your download game modules within the following directory:
 
       /media/fat/OpenBOR/Paks
 
-Execute:
+## Execute:
+To run OpenBOR follow the instructions provided below:
 
       MiSTer main menu
       Select scripts
       Select OpenBOR.sh
 
-Update Controls:
+## Update Controls:
+Update your keyboard, gamepad or daemonbite controller assignements:
 
       Select Module (PAK File)
       Press Start
@@ -32,6 +37,7 @@ Update Controls:
       Repeat for other Players/Gamepads
 
 ## OpenBOR Directory Structure
+General structure for OpenBOR
 
     /media/fat/OpenBOR/
         OpenBOR
