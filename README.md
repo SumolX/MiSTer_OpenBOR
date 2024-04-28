@@ -40,6 +40,7 @@ If you enjoyed this work or would like to see additional MiSTer related enhancem
 OpenBOR is a continuation of the Beats Of Rage 2D game engine, which was originally
 created by the wonderful folks over at http://www.senileteam.com.
 
+## Official Site
 https://github.com/DCurrent/openbor
 
 ## History
