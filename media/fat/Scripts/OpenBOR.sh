@@ -3,7 +3,7 @@
 OPENBOR_CPU_MASK=03
 OPENBOR_EXE_NAME="OpenBOR"
 OPENBOR_HOME_DIR="/media/fat/OpenBOR"
-LIB_PATH="${OPENBOR_HOME_DIR}/libs:${OPENBOR_HOME_DIR}/libs/pulseaudio"
+LIB_PATH="${OPENBOR_HOME_DIR}/Libs:${OPENBOR_HOME_DIR}/Libs/pulseaudio"
 
 echo "Setting Video mode..."
 vmode -r 320 240 rgb32 > /dev/null 2>&1
