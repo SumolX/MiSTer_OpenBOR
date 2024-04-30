@@ -5,7 +5,8 @@ ROOT_DIR=/media/fat
 SCRIPTS=$ROOT_DIR/Scripts
 INSTALL=$ROOT_DIR/OpenBOR
 ARCHIVE=master.zip
-PACKAGE=MiSTer_OpenBOR-main
+BRANCH=main
+PACKAGE=MiSTer_OpenBOR-$BRANCH
 WORKING=/tmp/$PACKAGE
 
 cleanup () {
