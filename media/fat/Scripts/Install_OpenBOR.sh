@@ -5,7 +5,8 @@ ROOT_DIR=/media/fat
 SCRIPTS=$ROOT_DIR/Scripts
 INSTALL=$ROOT_DIR/OpenBOR
 ARCHIVE=master.zip
-PACKAGE=MiSTer_OpenBOR-main
+BRANCH=crt_hdmi_scripts
+PACKAGE=MiSTer_OpenBOR-$BRANCH
 WORKING=/tmp/$PACKAGE
 
 cleanup () {
