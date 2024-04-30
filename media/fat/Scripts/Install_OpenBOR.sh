@@ -25,11 +25,12 @@ mkdir -p $INSTALL/ScreenShots
 
 # Clear out previous files
 rm -rf $INSTALL/Libs
+rm -rf $SCRIPTS/OpenBOR.sh
 
 # Install new files
 cp -av $WORKING/Libs $INSTALL/ && \
 cp -av $WORKING/OpenBOR $INSTALL/ && \
-cp -av $WORKING/media/fat/Scripts/OpenBOR.sh $SCRIPTS/ && \
+cp -av $WORKING/media/fat/Scripts/OpenBOR_*.sh $SCRIPTS/ && \
 cp -av $WORKING/media/fat/Scripts/Install_OpenBOR.sh $SCRIPTS/ && \
 cleanup
 
