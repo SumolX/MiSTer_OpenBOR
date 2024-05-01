@@ -4,6 +4,7 @@
 ROOT_DIR=/media/fat
 SCRIPTS=$ROOT_DIR/Scripts
 INSTALL=$ROOT_DIR/OpenBOR
+WORKING=$1
 
 # Prepare directory structure
 mkdir -p $INSTALL/Paks

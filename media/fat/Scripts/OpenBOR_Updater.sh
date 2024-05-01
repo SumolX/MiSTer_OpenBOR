@@ -15,5 +15,5 @@ wget -P /tmp https://github.com/SumolX/MiSTer_OpenBOR/archive/$VERSION.zip || ex
 unzip /tmp/$VERSION.zip -d /tmp || exit 1
 
 # Execute latest installer
-$WORKING/OpenBOR_Install.sh
+$WORKING/OpenBOR_Install.sh $WORKING
 cleanup
