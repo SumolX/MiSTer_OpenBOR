@@ -35,6 +35,6 @@ rm -rf $INSTALL/Logs $INSTALL/Saves $INSTALL/ScreenShots
 
 # Install new files
 cp -av $WORKING/Libs $INSTALL/ && \
-cp -av $WORKING/OpenBOR* $INSTALL/ && \
+cp -av $WORKING/OpenBOR $INSTALL/ && \
 cp -av $WORKING/media/fat/Scripts/* $SCRIPTS/ 
 
