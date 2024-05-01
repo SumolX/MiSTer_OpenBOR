@@ -11,7 +11,7 @@ This port is a gift to my daugher who is a huge fan of Sailor Moon and there are
 Place installer script within the standard MiSTer Scripts directory and execute to download and install OpenBOR.
 
       /media/fat/Scripts/
-           Install_OpenBOR.sh
+           OpenBOR_Updater.sh
 
 ## Game Modules:
 Place your download game modules within the following directory:
@@ -44,16 +44,23 @@ Update your keyboard, gamepad or daemonbite controller assignements:
 General structure for OpenBOR
 
     /media/fat/OpenBOR/
-        OpenBOR
-        Paks/
-        ScreenShots/
+	CRT/ScreenShots/
+        CRT/Libs/
+        CRT/Logs/
+        CRT/Saves/
+	HDMI/ScreenShots/
+        HDMI/Libs/
+        HDMI/Logs/
+        HDMI/Saves/
         Libs/
-        Logs/
-        Saves/
+        Paks/
+        OpenBOR_Install.sh
+        OpenBOR
         
     /media/fat/Scripts/
-        OpenBOR.sh
-        Install_OpenBOR.sh
+        OpenBOR_CRT.sh
+        OpenBOR_HDMI.sh
+        OpenBOR_Updater.sh
 
 
 ## Donation
