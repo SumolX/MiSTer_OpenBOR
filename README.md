@@ -20,10 +20,14 @@ Place your download game modules within the following directory:
 
 ## Execute:
 To run OpenBOR follow the instructions provided below:
-
+### Analog 320x240 Resolution
       MiSTer main menu
-      Select scripts
-      Select OpenBOR.sh
+      Select scripts     
+      Select OpenBOR_CRT.sh
+### Native Display Resolution
+      MiSTer main menu
+      Select scripts     
+      Select OpenBOR_HDMI.sh
 
 ## Update Controls:
 Update your keyboard, gamepad or daemonbite controller assignements:
