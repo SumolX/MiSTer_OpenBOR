@@ -4,19 +4,18 @@
 ROOT_DIR=/media/fat
 SCRIPTS=$ROOT_DIR/Scripts
 INSTALL=$ROOT_DIR/OpenBOR
-ARCHIVE=master.zip
-BRANCH=crt_hdmi_scripts
-PACKAGE=MiSTer_OpenBOR-$BRANCH
+VERSION=crt_hdmi_scripts
+PACKAGE=MiSTer_OpenBOR-$VERSION
 WORKING=/tmp/$PACKAGE
 
 cleanup () {
-  rm -rf /tmp/$ARCHIVE /tmp/$PACKAGE
+  rm -rf /tmp/$VERSION.zip /tmp/$PACKAGE
 }
 
 # Download latest and extract
 cleanup
-wget -P /tmp https://github.com/SumolX/MiSTer_OpenBOR/archive/$ARCHIVE || exit 1
-unzip /tmp/$ARCHIVE -d /tmp || exit 1
+wget -P /tmp https://github.com/SumolX/MiSTer_OpenBOR/archive/$VERSION.zip || exit 1
+unzip /tmp/$VERSION.zip -d /tmp || exit 1
 
 # Prepare directory structure
 mkdir -p $INSTALL/Logs
