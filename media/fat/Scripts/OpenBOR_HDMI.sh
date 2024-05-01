@@ -5,9 +5,6 @@ OPENBOR_EXE_NAME="OpenBOR"
 OPENBOR_HOME_DIR="/media/fat/OpenBOR"
 LIB_PATH="${OPENBOR_HOME_DIR}/Libs:${OPENBOR_HOME_DIR}/Libs/pulseaudio"
 
-echo "Setting Video mode..."
-vmode -r 320 240 rgb32 > /dev/null 2>&1
-
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${LIB_PATH}"
 export HOME="${OPENBOR_HOME_DIR}"
 
