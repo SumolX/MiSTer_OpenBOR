@@ -4,7 +4,7 @@
 ROOT_DIR=/media/fat
 SCRIPTS=$ROOT_DIR/Scripts
 INSTALL=$ROOT_DIR/OpenBOR
-VERSION=crt_hdmi_scripts
+VERSION=master
 PACKAGE=MiSTer_OpenBOR-$VERSION
 WORKING=/tmp/$PACKAGE
 
