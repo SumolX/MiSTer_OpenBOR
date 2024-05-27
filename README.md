@@ -64,9 +64,11 @@ General structure for OpenBOR
 
 
 ## Donation
-If you enjoyed this work or would like to see additional MiSTer related enhancements please feel free to donate.
+If you enjoyed this work or would like to see additional features and functionality added in the future please feel free to donate or join my patreon.
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=E4DSQMLR5JUXS)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=E4DSQMLR5JUXS)
+
+[<img src="https://brandlogos.net/wp-content/uploads/2021/12/Patreon_logo_old-1536x352.png" width="88" height="20"/>](https://patreon.com/sumolx?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink)
 
 ## OpenBOR
 OpenBOR is a continuation of the Beats Of Rage 2D game engine, which was originally
